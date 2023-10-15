@@ -1,0 +1,44 @@
+#include<stdio.h>
+
+main(){
+
+int menu, quantidade;
+float valor;
+
+printf("Informe o seu pedido: 100 cachorro quente, 101 bauru simples, 102 bauru c/ovo, 103 Hamburguer, 104 Cheeseburger");
+scanf ("%d", &menu);
+
+printf("Quantos você vai querer?");
+scanf("%d", &quatidade);
+
+switch{
+
+  case 100:
+    valor = quantidade * 10.10;
+    printf("O valor total é: %f", valor);
+    break;
+
+  case 101:
+    valor = quantidade * 8.30;
+    printf("O valor total é: %f", valor);
+    break;
+
+  case 102:
+    valor = quantidade * 8.50;
+    printf("O valor total é: %f", valor);
+    break;
+
+  case 103:
+    valor = quantidade * 12.50;
+    printf("O valor total é: %f", valor);
+    break;
+
+  case 104:
+    valor = quantidade * 13.25;
+    printf("O valor total é: %f", valor);
+    break;}
+}
+  
+  
+
+
